@@ -9,9 +9,11 @@ public class Prueba {
     public static void main(String[] args) {
         
      
-        String nom = JOptionPane.showInputDialog(null,"Ingrese su nombre " );
+        String nom = JOptionPane.showInputDialog("Ingrese su nombre ");
         
-        JOptionPane.showInternalMessageDialog(null,"nom");
+        //JOptionPane.showMessageDialog(null, " Nombre " + nom);
+        
+        JOptionPane.showMessageDialog(null, nom ,"Nombre Ingresado", 1, null);
    
     }
  
